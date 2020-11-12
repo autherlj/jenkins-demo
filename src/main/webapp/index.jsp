@@ -5,6 +5,6 @@
     <title>Aliyun Container Service</title>
 </head>
 <body>
-<h1>你现在到的网页是由Git+Jenkins+阿里云ACK自动化部署的 v1</h1>
+<h1>你现在到的网页是由Git+Jenkins+阿里云ACK自动化部署的 v2</h1>
 </body>
 </html>
