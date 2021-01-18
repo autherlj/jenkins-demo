@@ -36,8 +36,9 @@ pipeline{
         stage('SonarQube Analysis'){
           steps{
               container("maven") {
-                  withSonarQubeEnv('sonar')  
+                    withSonarQubeEnv('sonar')  {
                   sh "mvn verify sonar:sonar"
+                 }         
               }
           }
         }    
